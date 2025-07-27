@@ -1,0 +1,6 @@
+owner = SWE
+controller = SWE
+trade_goods = tobacco
+life_rating = 35
+colonial = 2
+1861.1.1 = { railroad = 3 }

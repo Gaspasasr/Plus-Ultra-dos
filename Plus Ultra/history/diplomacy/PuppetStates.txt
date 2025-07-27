@@ -1,0 +1,36 @@
+substate = {
+	first = SPA
+	second = MEX
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = SPA
+	second = CLM
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = SPA
+	second = PEU
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = SPA
+	second = SIT
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = SPA
+	second = SNL
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = SPA
+	second = EDC
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}

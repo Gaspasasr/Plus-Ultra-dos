@@ -1,0 +1,11 @@
+trade_goods = fish
+life_rating = 15
+owner = CHN
+controller = CHN
+add_core = CHN
+1861.1.1 = { 
+    owner = RUS
+    controller = RUS
+    colonial = 2
+    railroad = 3
+}

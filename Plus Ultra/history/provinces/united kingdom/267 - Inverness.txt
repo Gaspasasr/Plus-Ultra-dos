@@ -1,0 +1,8 @@
+owner = SCO
+controller = SCO
+trade_goods = sulphur
+life_rating = 35
+naval_base = 1
+add_core = SCO
+add_core = ABN
+1861.1.1 = { railroad = 3 } 

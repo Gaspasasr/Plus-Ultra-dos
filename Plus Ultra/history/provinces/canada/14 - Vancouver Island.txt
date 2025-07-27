@@ -1,0 +1,7 @@
+trade_goods = coal
+life_rating = 35
+colonial = 2
+owner = CHN
+controller = CHN
+add_core = CHN
+1861.1.1 = { naval_base = 1 railroad = 3 } 

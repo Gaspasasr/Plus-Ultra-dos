@@ -1,0 +1,8 @@
+add_core = GXI
+trade_goods = timber
+life_rating = 32
+owner = EDC
+controller = EDC
+fort = 1
+colonial = 2
+1861.1.1 = { naval_base = 1 railroad = 3 } 

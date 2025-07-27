@@ -1,0 +1,7 @@
+add_core = GXI
+trade_goods = silk
+life_rating = 32
+owner = EDC
+controller = EDC
+colonial = 2
+1861.1.1 = { railroad = 3 } 

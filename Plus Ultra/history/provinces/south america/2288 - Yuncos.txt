@@ -1,0 +1,8 @@
+owner = CLM
+controller = CLM
+add_core = CLM
+add_core = PEU
+add_core = GCO
+trade_goods = wool
+life_rating = 30
+1861.1.1 = { railroad = 3 } 

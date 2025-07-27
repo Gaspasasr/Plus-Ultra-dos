@@ -1,0 +1,7 @@
+owner = EDC
+controller = EDC
+add_core = TPG
+trade_goods = timber
+life_rating = 32
+colonial = 2
+1861.1.1 = { controller = TPG owner = TPG railroad = 3 } 

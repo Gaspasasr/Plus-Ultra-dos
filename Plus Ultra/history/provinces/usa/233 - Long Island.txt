@@ -1,0 +1,7 @@
+owner = NAM
+controller = NAM
+add_core = NAM
+trade_goods = grain
+naval_base = 1
+life_rating = 35
+1861.1.1 = { railroad = 3 naval_base = 3 } 

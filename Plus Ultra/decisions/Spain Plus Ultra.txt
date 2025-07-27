@@ -1,0 +1,26 @@
+political_decisions = {
+	incorporate_the_viceroyalties = {
+		potential = {
+			tag = SPA
+			exists = MEX
+			exists = CLM
+			exists = PEU
+			}
+		allow = {
+			revolution_n_counterrevolution = 1
+			is_great_power = yes
+			prestige = 70
+		}
+		effect = {
+			prestige = 100
+			any_country = {
+				limit = {
+					substate_of = THIS
+				}
+				annex_to = THIS
+			add_accepted_culture = mexican
+			add_accepted_culture = central_american
+			add_accepted_culture = north_andean
+			add_accepted_culture = south_andean
+		}
+}

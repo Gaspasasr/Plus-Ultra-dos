@@ -1,0 +1,6 @@
+trade_goods = wool
+life_rating = 30
+owner = FUN
+controller = FUN
+add_core = FUN
+1861.1.1 = { railroad = 3 }

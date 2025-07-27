@@ -1,0 +1,6 @@
+trade_goods = wool
+life_rating = 10
+owner = MOS
+controller = MOS
+add_core = MOS
+1861.1.1 = { railroad = 3 }

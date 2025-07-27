@@ -1,0 +1,7 @@
+trade_goods = iron
+life_rating = 40
+fort = 1
+owner = GNV
+controller = GNV
+add_core = GNV
+1861.1.1 = { railroad = 3 } 

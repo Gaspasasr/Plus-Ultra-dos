@@ -1,0 +1,7 @@
+owner = ATU
+controller = ATU
+add_core = ATU
+add_core = NEW
+trade_goods = fish
+life_rating = 35
+1861.1.1 = { railroad = 3 }

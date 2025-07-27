@@ -1,0 +1,144 @@
+#############################################;;;;;;;;;;;;;;x
+NAM_prussian_constitutionalism;Nedervrij;;;;;;;;;;;;;x
+NAM_hms_government;Nedervrij;;;;;;;;;;;;;x
+NAM_absolute_monarchy;Nedervrij;;;;;;;;;;;;;x
+NAM_proletarian_dictatorship;Nedervrij;;;;;;;;;;;;;x
+NAM_presidential_dictatorship;Nedervrij;;;;;;;;;;;;;x
+NAM_bourgeois_dictatorship;Nedervrij;;;;;;;;;;;;;x
+NAM_fascist_dictatorship;Nedervrij;;;;;;;;;;;;;x
+NAM_democracy;Nedervrij;;;;;;;;;;;;;x
+NAM;Nedervrij;;;;;;;;;;;;;x
+NAM_ADJ;Vrijan;;;;;;;;;;;;;x
+HEL_prussian_constitutionalism;Helvstatt;;;;;;;;;;;;;x
+HEL_hms_government;Helvstatt;;;;;;;;;;;;;x
+HEL_absolute_monarchy;Helvstatt;;;;;;;;;;;;;x
+HEL_proletarian_dictatorship;Helvstatt;;;;;;;;;;;;;x
+HEL_presidential_dictatorship;Helvstatt;;;;;;;;;;;;;x
+HEL_bourgeois_dictatorship;Helvstatt;;;;;;;;;;;;;x
+HEL_fascist_dictatorship;Helvstatt;;;;;;;;;;;;;x
+HEL_democracy;Helvstatt;;;;;;;;;;;;;x
+HEL;Helvstatt;;;;;;;;;;;;;x
+HEL_ADJ;Helvetian;;;;;;;;;;;;;x
+BRG;Burgundy;;;;;;;;;;;;;x
+BRG_ADJ;Burgundian;;;;;;;;;;;;;x
+LOR;Lorraine;;;;;;;;;;;;;x
+LOR_ADJ;Lorranian;;;;;;;;;;;;;x
+ALS;Alsace;;;;;;;;;;;;;x
+ALS_ADJ;Alsatian;;;;;;;;;;;;;x
+BRN;Brandenburg;;;;;;;;;;;;;x
+BRN_ADJ;Brandenburgian;;;;;;;;;;;;;x
+SNL;Spanish Netherlands;;;;;;;;;;;;;x
+SNL_ADJ;Dutch;;;;;;;;;;;;;x
+WES;Westphalia;;;;;;;;;;;;;x
+WES_ADJ;Westphalian;;;;;;;;;;;;;x
+GNV;Geneva;;;;;;;;;;;;;x
+GNV_ADJ;Genevan;;;;;;;;;;;;;x
+TIR;Tyrol;;;;;;;;;;;;;x
+TIR_ADJ;Tyrolean;;;;;;;;;;;;;x
+ITC;Italic Confederation;;;;;;;;;;;;;x
+ITC_ADJ;Italic;;;;;;;;;;;;;x
+ITC_prussian_constitutionalism;Regno Bonapartista;;;;;;;;;;;;;x
+ITC_hms_government;Regno Bonapartista;;;;;;;;;;;;;x
+ITC_absolute_monarchy;Regno Bonapartista;;;;;;;;;;;;;x
+ITC_proletarian_dictatorship;Italic Workers State;;;;;;;;;;;;;x
+ITC_presidential_dictatorship;Italic Confederation;;;;;;;;;;;;;x
+ITC_bourgeois_dictatorship;Genoese Merchant Empire;;;;;;;;;;;;;x
+ITC_fascist_dictatorship;Italic State;;;;;;;;;;;;;x
+ITC_ADJ_prussian_constitutionalism;Bonapartista;;;;;;;;;;;;;x
+ITC_ADJ_absolute_monarchy;Bonapartista;;;;;;;;;;;;;x
+ITC_ADJ_hms_government;Bonapartista;;;;;;;;;;;;;x
+SIT;Spanish Italy;;;;;;;;;;;;;x
+SIT_ADJ;Italian;;;;;;;;;;;;;x
+CIR;Circassia;;;;;;;;;;;;;x
+CIR_ADJ;Circassian;;;;;;;;;;;;;x
+OIR;Oirat Khanate;;;;;;;;;;;;;x
+OIR_ADJ;Oirat;;;;;;;;;;;;;x
+QIN;Qing Empire;;;;;;;;;;;;;x
+QIN_ADJ;Qing;;;;;;;;;;;;;x
+WUY;Wuyue;;;;;;;;;;;;;x
+WUY_ADJ;Wuyue;;;;;;;;;;;;;x
+NAN;Nan Tang;;;;;;;;;;;;;x
+NAN_ADJ;Tang;;;;;;;;;;;;;x
+EDC;Empresa de China;;;;;;;;;;;;;x
+EDC_ADJ;Empresarial;;;;;;;;;;;;;x
+LAN;Lan Fang;;;;;;;;;;;;;x
+LAN_ADJ;Fang;;;;;;;;;;;;;x
+KTI;Kutai;;;;;;;;;;;;;x
+KTI_ADJ;Kutai;;;;;;;;;;;;;x
+MKS;Makasar;;;;;;;;;;;;;x
+MKS_ADJ;Makasar;;;;;;;;;;;;;x
+PAL;Palembang;;;;;;;;;;;;;x
+PAL_ADJ;Palembang;;;;;;;;;;;;;x
+EUS;Euskaluharte;;;;;;;;;;;;;x
+EUS_ADJ;Euskal;;;;;;;;;;;;;x
+FJA;Futa-Jallon;;;;;;;;;;;;;x
+FJA_ADJ;Jallonian;;;;;;;;;;;;;x
+MOS;Mali;;;;;;;;;;;;;x
+MOS_ADJ;Malian;;;;;;;;;;;;;x
+ASH;Ashanti;;;;;;;;;;;;;x
+ASH_ADJ;Ashanti;;;;;;;;;;;;;x
+ILO;Ilorin;;;;;;;;;;;;;x
+ILO_ADJ;Ilorian;;;;;;;;;;;;;x
+DAH;Dahomey;;;;;;;;;;;;;x
+DAH_ADJ;Dahomey;;;;;;;;;;;;;x
+OYO;Oyo;;;;;;;;;;;;;x
+OYO_ADJ;Oyoan;;;;;;;;;;;;;x
+NRI;Nri;;;;;;;;;;;;;x
+NRI_ADJ;Nri;;;;;;;;;;;;;x
+ADW;Adwa Sultanate;;;;;;;;;;;;;x
+ADW_ADJ;Adwa;;;;;;;;;;;;;x
+KNO;Kano;;;;;;;;;;;;;x
+KNO_ADJ;Kano;;;;;;;;;;;;;x
+KAN;Kanem-Bornu;;;;;;;;;;;;;x
+KAN_ADJ;Bornu;;;;;;;;;;;;;x
+FUN;The Funj Sultanate;;;;;;;;;;;;;x
+FUN_ADJ;Funj;;;;;;;;;;;;;x
+AJU;The Ajuuraan Sultanate;;;;;;;;;;;;;x
+AJU_ADJ;Ajuuraan;;;;;;;;;;;;;x
+AZA;Azambe;;;;;;;;;;;;;x
+AZA_ADJ;Azambe;;;;;;;;;;;;;x
+BUG;Buganda;;;;;;;;;;;;;x
+BUG_ADJ;Bugandan;;;;;;;;;;;;;x
+MNG;Mongo;;;;;;;;;;;;;x
+MNG_ADJ;Mongo;;;;;;;;;;;;;x
+LOA;Loango;;;;;;;;;;;;;x
+LOA_ADJ;Loangoan;;;;;;;;;;;;;x
+KON;Kong;;;;;;;;;;;;;x
+KON_ADJ;Kongese;;;;;;;;;;;;;x
+KUB;Kuba;;;;;;;;;;;;;x
+KUB_ADJ;Kuban;;;;;;;;;;;;;x
+LBA;Luba;;;;;;;;;;;;;x
+LBA_ADJ;Luban;;;;;;;;;;;;;x
+KZB;Kazembe;;;;;;;;;;;;;x
+KZB_ADJ;Kazembian;;;;;;;;;;;;;x
+SHO;Shona;;;;;;;;;;;;;x
+SHO_ADJ;Shonan;;;;;;;;;;;;;x
+MAT;Matabele;;;;;;;;;;;;;x
+MAT_ADJ;Matabelean;;;;;;;;;;;;;x
+BSH;Bashoto;;;;;;;;;;;;;x
+BSH_ADJ;Bashotoan;;;;;;;;;;;;;x
+feudal_monarchy;Feudal Monarchy;;;;;;;;;;;;;
+COV;Covenantia;;;;;;;;;;;;;x
+COV_ADJ;Covenanter;;;;;;;;;;;;;x
+LIG;Liga de Pueblos Libres;;;;;;;;;;;;;x
+LIG_ADJ;Libre;;;;;;;;;;;;;x
+CHN;Cheongseon;;;;;;;;;;;;;x
+CHN_ADJ;Cheon;;;;;;;;;;;;;x
+LOU;Louisiana Republic;;;;;;;;;;;;;x
+LIG_ADJ;Louisianan;;;;;;;;;;;;;x
+LOU_prussian_constitutionalism;The Kingdom of Louisiane;;;;;;;;;;;;;x
+LOU_hms_government;The Kingdom of Louisiane;;;;;;;;;;;;;x
+LOU_absolute_monarchy;The Kingdom of Louisiane;;;;;;;;;;;;;x
+LOU_proletarian_dictatorship;Louisiana Republic;;;;;;;;;;;;;x
+LOU_presidential_dictatorship;Louisiana Republic;;;;;;;;;;;;;x
+LOU_bourgeois_dictatorship;Louisiana Republic;;;;;;;;;;;;;x
+LOU_fascist_dictatorship;Louisiane;;;;;;;;;;;;;x
+LOU_democracy;Louisiana Republic;;;;;;;;;;;;;x
+ATU_fascist_dictatorship;Occitanian Empire;;;;;;;;;;;;;x
+ATU_democracy;Aturiana Republic;;;;;;;;;;;;;x
+ATU;Aturiana;;;;;;;;;;;;;x
+ATU_ADJ;Aturian;;;;;;;;;;;;;x
+CHU;Chu;;;;;;;;;;;;;
+CHU_ADJ;Chu;;;;;;;;;;;;;x
+SHU;Shu;;;;;;;;;;;;;x
+SHU_ADJ;Shu;;;;;;;;;;;;;x

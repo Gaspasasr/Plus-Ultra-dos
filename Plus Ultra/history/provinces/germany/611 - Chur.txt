@@ -1,0 +1,6 @@
+trade_goods = cattle
+life_rating = 40
+add_core = TIR
+owner = TIR
+controller = TIR
+1861.1.1 = { railroad = 3 }

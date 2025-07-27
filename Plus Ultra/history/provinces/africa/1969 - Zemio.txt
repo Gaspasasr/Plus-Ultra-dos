@@ -1,0 +1,6 @@
+trade_goods = cattle
+life_rating = 15
+owner = AZA
+controller = AZA
+add_core = AZA
+1861.1.1 = { railroad = 3 }

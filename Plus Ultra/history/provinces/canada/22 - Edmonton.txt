@@ -1,0 +1,11 @@
+trade_goods = grain
+life_rating = 30
+owner = CHN
+controller = CHN
+add_core = CHN
+1861.1.1 = { 
+    owner = ENG
+    controller = ENG
+    colonial = 2
+    railroad = 3
+}

@@ -1,0 +1,6 @@
+trade_goods = cattle
+life_rating = 10
+owner = KNO
+controller = KNO
+add_core = KNO
+1861.1.1 = { railroad = 3 }

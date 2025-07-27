@@ -1,0 +1,6 @@
+owner = MUG
+controller = MUG
+add_core = MUG
+trade_goods = coal
+life_rating = 28
+1861.1.1 = { railroad = 3 } 

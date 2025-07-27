@@ -1,0 +1,6 @@
+owner = SNL
+controller = SNL
+add_core = SNL
+trade_goods = fish
+life_rating = 35
+1861.1.1 = { railroad = 3 } 

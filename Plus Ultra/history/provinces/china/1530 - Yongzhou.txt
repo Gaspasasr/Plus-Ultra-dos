@@ -1,0 +1,7 @@
+add_core = CHU
+add_core = GXI
+trade_goods = silk
+life_rating = 32
+owner = CHU
+controller = CHU
+1861.1.1 = { railroad = 3 } 

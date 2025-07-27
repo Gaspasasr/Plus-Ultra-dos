@@ -1,0 +1,7 @@
+owner = WUY
+controller = WUY
+add_core = WUY
+add_core = TPG
+trade_goods = tea
+life_rating = 32
+1861.1.1 = { controller = TPG owner = TPG railroad = 3 } 

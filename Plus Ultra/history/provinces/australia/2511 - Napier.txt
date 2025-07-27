@@ -1,0 +1,11 @@
+add_core = EUS
+trade_goods = cattle
+life_rating = 30
+owner = EUS
+controller = EUS
+1861.1.1 = { 
+    owner = ENG
+    controller = ENG
+    colonial = 2
+    railroad = 3
+}

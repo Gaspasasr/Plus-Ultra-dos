@@ -1,0 +1,14 @@
+owner = NAM
+controller = NAM
+add_core = NAM
+trade_goods = tobacco
+life_rating = 35
+naval_base = 2
+1861.1.1 = { 
+    railroad = 3
+    party_loyalty = { ideology = conservative loyalty_value = 25 } 
+    state_building = { level = 1 building = paper_mill upgrade = yes } 
+    state_building = { level = 1 building = luxury_clothes_factory upgrade = yes } 
+}
+
+1861.1.1 = { railroad = 3 } 

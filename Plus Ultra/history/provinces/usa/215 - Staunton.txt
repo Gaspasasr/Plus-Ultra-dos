@@ -1,0 +1,13 @@
+owner = HEL
+controller = HEL
+add_core = HEL
+trade_goods = grain
+life_rating = 35
+1861.1.1 = { 
+    owner = CSA
+    controller = CSA
+    add_core = CSA
+    railroad = 3
+}
+
+1861.1.1 = { railroad = 3 } 

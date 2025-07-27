@@ -1,0 +1,7 @@
+add_core = NAN
+add_core = GXI
+trade_goods = iron
+life_rating = 32
+owner = NAN
+controller = NAN
+1861.1.1 = { railroad = 3 } 

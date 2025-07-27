@@ -1,0 +1,7 @@
+trade_goods = cattle
+life_rating = 35
+colonial = 2
+owner = CHN
+controller = CHN
+add_core = CHN
+1861.1.1 = { add_core = USA railroad = 3 } 

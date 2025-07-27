@@ -1,0 +1,6 @@
+trade_goods = coffee
+life_rating = 15
+owner = ASH
+controller = ASH
+add_core = ASH
+1861.1.1 = { railroad = 3 }

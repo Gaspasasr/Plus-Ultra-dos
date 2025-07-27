@@ -1,0 +1,12 @@
+owner = HAN
+controller = HAN
+add_core = HAN
+add_core = GER
+trade_goods = wool
+life_rating = 40
+1861.1.1 = { 
+    owner = TUR
+    controller = TUR
+    colonial = 0
+    railroad = 3
+}

@@ -1,0 +1,8 @@
+;;;;;;;;;;;;;;x,,,
+UNIT_BUILD_TIME_IW;$VAL$ days.;$VAL$ jours.;$VAL$ Tage.;;$VAL$ días.;;;;;;;;;x;
+war_reparations;Reparations;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;
+war_reparations_desc;Demands war reparations;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;
+war_reparations_short;Demand Reparations;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;
+war_reparations_setup;Demands war reparations from the taget country;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,;;;;;;;;;;;;;;;;;;;;;
+tanzimat_reform;Tanzimat Reforms;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+tanzimat_reform_desc;We have enacted the Tanzimat reforms.;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,

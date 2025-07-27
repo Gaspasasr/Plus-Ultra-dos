@@ -1,0 +1,8 @@
+owner = ATU
+controller = ATU
+add_core = ATU
+add_core = CAN
+trade_goods = grain
+naval_base = 1
+life_rating = 35
+1861.1.1 = { railroad = 3 }

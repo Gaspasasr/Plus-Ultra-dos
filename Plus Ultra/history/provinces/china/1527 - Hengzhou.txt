@@ -1,0 +1,6 @@
+add_core = CHU
+trade_goods = tea
+life_rating = 32
+owner = CHU
+controller = CHU
+1861.1.1 = { railroad = 3 } 

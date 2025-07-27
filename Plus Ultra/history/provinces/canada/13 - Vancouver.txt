@@ -1,0 +1,6 @@
+trade_goods = fish
+life_rating = 35
+owner = CHN
+controller = CHN
+add_core = CHN
+1861.1.1 = { railroad = 3 }
