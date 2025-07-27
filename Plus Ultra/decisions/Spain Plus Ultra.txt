@@ -13,14 +13,14 @@ political_decisions = {
 		}
 		effect = {
 			prestige = 100
+			add_accepted_culture = mexican
+			add_accepted_culture = central_american
+			add_accepted_culture = north_andean
+			add_accepted_culture = south_andean
 			any_country = {
 				limit = {
 					substate_of = THIS
 				}
 				annex_to = THIS
-			add_accepted_culture = mexican
-			add_accepted_culture = central_american
-			add_accepted_culture = north_andean
-			add_accepted_culture = south_andean
 		}
 }
