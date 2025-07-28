@@ -5,8 +5,10 @@ political_decisions = {
 			exists = MEX
 			exists = CLM
 			exists = PEU
+			NOT = { has_country_flag = integrated_viceroyalties }
 			}
 		allow = {
+			war = no
 			revolution_n_counterrevolution = 1
 			is_great_power = yes
 			prestige = 70
@@ -17,10 +19,37 @@ political_decisions = {
 			add_accepted_culture = central_american
 			add_accepted_culture = north_andean
 			add_accepted_culture = south_andean
+			set_country_flag = integrated_viceroyalties
 			any_country = {
 				limit = {
 					substate_of = THIS
 				}
 				annex_to = THIS
+			}
 		}
+	}
+	promote_inmigration_in_the_viceroyalties = {
+		potential = {
+			tag = SPA
+			NOT = { has_country_flag = integrated_viceroyalties }
+			NOT = { has_country_flag = inmigration_viceroyalties }
+		}
+		allow = {
+			state_n_government = 1
+			is_great_power = yes
+			government = prussian_constitutionalism
+		}
+		effect = {
+			set_country_flag = inmigration_viceroyalties
+			any_country = {
+				limit = {
+					substate_of = THIS
+				}
+				add_country_modifier = {
+					name = land_of_opportunity
+					duration = 7300
+				}
+			}
+		}
+	}
 }

@@ -778,3 +778,9 @@ kinda_bad_badboy = {
 	research_points_modifier = -0.2
 	cb_generation_speed_modifier = -0.3
 	icon = 8
+}
+
+land_of_opportunity = {
+	global_immigrant_attract = 0.55
+	icon = 13
+}
