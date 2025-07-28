@@ -1,23 +1,18 @@
 #name = "War of Northern Aggression"
 
-1861.6.30 = {
+1775.4.19 = {
 	add_attacker = USA
-	add_defender = CSA
+	add_defender = ENG
 	
-	# actor
-	# receiver
-	# casus_belli - cb type
-	# country - 3rd party
-	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = civil_war
+		casus_belli = become_independent
 		actor = USA
-		receiver = CSA
-	}
-	war_goal = {
-		casus_belli = status_quo
-		actor = CSA
-		receiver = USA
+		receiver = ENG
 	}
 
+}
+
+1783.9.3 = {
+	rem_attacker = USA
+	rem_defender = ENG
 }

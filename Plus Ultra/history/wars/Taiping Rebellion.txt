@@ -1,23 +1,18 @@
 #name = "Taiping Rebellion"
 
-1861.6.30 = {
-	add_attacker = TPG
-	add_defender = CHI
+1775.4.19 = {
+	add_attacker = USA
+	add_defender = ENG
 	
-	# actor
-	# receiver
-	# casus_belli - cb type
-	# country - 3rd party
-	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = civil_war
-		actor = TPG
-		receiver = CHI
-	}
-	war_goal = {
-		casus_belli = civil_war
-		actor = CHI
-		receiver = TPG
+		casus_belli = become_independent
+		actor = USA
+		receiver = ENG
 	}
 
+}
+
+1783.9.3 = {
+	rem_attacker = USA
+	rem_defender = ENG
 }
