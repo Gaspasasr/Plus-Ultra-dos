@@ -1,6 +1,6 @@
-owner = BRN
-controller = BRN
-add_core = BRN
+owner = LUX
+controller = LUX
+add_core = LUX
 add_core = GER
 trade_goods = iron
 life_rating = 40
