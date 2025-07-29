@@ -7,7 +7,7 @@ plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.8
 civilized = yes
-prestige = 45
+prestige = 10
 
 # Political reforms
 slavery = no_slavery
@@ -71,7 +71,7 @@ basic_chemistry = 1
 consciousness = 3
 nonstate_consciousness = 1
 
-oob = "HAN_oob.txt"
+oob = "NAS_oob.txt"
 1861.1.1 = {
 	oob = "/1861/HAN_oob.txt"
 	plurality = 60

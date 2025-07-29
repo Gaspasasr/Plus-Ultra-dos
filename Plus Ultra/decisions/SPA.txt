@@ -28,37 +28,4 @@ political_decisions = {
 			set_country_flag = guardia_civil_established
 		}
 	}
-
-	confiscations_of_mendizabal = {
-		potential = {
-			tag = SPA
-			NOT = {
-				has_country_flag = mendizabal_confiscated
-			}
-		}
-
-		allow = {
-			ideological_thought = 1
-		}
-
-		effect = {
-			treasury = 25000
-			prestige = 10
-			relation = {
-				who = PAP
-				value = -50
-			}
-			any_pop = {
-				scaled_militancy = {
-					ideology = conservative
-					factor = 4
-				}
-				dominant_issue = {
-					value = pro_atheism
-					factor = 0.15
-				}
-			}
-			set_country_flag = mendizabal_confiscated
-		}
-	}
 }

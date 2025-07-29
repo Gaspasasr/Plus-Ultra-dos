@@ -1,62 +1,27 @@
 #Sphere of Influence
 MEX = {
-	value = 75		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+
+	value = 125
+	level = 5
 	influence_value = 25
+	military_access = yes
 }
-ECU = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
+FRM = {
+
+	value = 125
+	level = 5
 	influence_value = 25
-}
-PEU = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
-}
-BOL = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
-}
-CHL = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
-}
-PRG = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
-}
-UCA = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
+	military_access = yes
 }
 CLM = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
-}
-BRZ = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
-}
-URU = {
-	value = 75		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
-}
-POR = {
-	value = 100		#relation
-	level = 3		#3=cordial, 4 = friendly, 5 sphere
-	influence_value = 25
-}
 
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
 FRA = {
-	value = 55
+	value = -55
 }
 
 leader = {

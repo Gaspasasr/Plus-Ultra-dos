@@ -1,5 +1,32 @@
 #Sphere of Influence
+TIR = {
 
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+GNV = {
+
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+ALS = {
+
+	value = 125
+	level = 5
+	influence_value = 25
+	military_access = yes
+}
+LOR = {
+
+	value = 125
+	level = 4
+	influence_value = 50
+	military_access = yes
+}
 BAD = {	
 	value = 125
 	level = 5

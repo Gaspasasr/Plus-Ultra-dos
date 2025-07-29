@@ -8,8 +8,7 @@ literacy = 0.23
 non_state_culture_literacy = 0.15
 civilized = yes
 
-#GreaterPowers = prestige
-prestige = 90
+prestige = 20
 
 # Political reforms
 slavery = yes_slavery
@@ -93,7 +92,7 @@ govt_flag = {
 
 schools = culture_tech_school
 
-oob = "FRA_oob.txt"
+oob = "LOU_oob.txt"
 
 1850.1.1 = {
  decision = support_french_foreign_legion
