@@ -153,4 +153,22 @@ political_decisions = {
 			set_country_flag = extreme_home_makeover
 		}
 	}
+	end_burgundian_autonomy = {
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = burgundy_annexed }
+		}
+		allow = {
+			owns = 428
+			NOT = { exists = BRG }
+		}
+		effect = {
+			FRA_428 = {
+				add_core = FRA
+			}
+			FRA_428 = {
+				remove_core = BRG
+			}
+		add_country_flag = burgundy_annexed
+	}
 }
