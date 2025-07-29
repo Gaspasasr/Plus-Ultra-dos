@@ -52,4 +52,26 @@ political_decisions = {
 			}
 		}
 	}
+	embrace_the_spanish_industrial_boom = {
+		potential = {
+			tag = SPA
+			owns = 513
+			owns = 492
+			owns = 498
+			owns = 503
+			NOT = { has_country_flag = spanish_industrial_boom }
+		}
+		allow = {
+			cheap_iron = 1
+			iron_railroad = 1
+			inorganic_chemistry = 1
+		}
+		effect = {
+			set_country_flag = spanish_industrial_boom
+			add_country_modifier = {
+				name = spanish_industrial_boom
+				duration = 3650
+			}
+		}
+	}
 }
