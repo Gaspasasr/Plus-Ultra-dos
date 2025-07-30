@@ -7,7 +7,7 @@ political_decisions = {
 				exists = GER
 				exists = NGF
 			}
-		}	
+		}
 		allow = {
 			war = no
 			GER = {
@@ -107,7 +107,7 @@ political_decisions = {
 			factor = 1
 		}
 	}	
-		
+	
 	form_germany = {
 		news = yes
 		news_desc_long = "form_germany_NEWS_LONG"
@@ -207,6 +207,8 @@ political_decisions = {
 		ai_will_do = {
 			factor = 1
 		}
+    }
+    
 unite_moldavia_wallachia = {
 		potential = {
 			OR = {
@@ -216,7 +218,7 @@ unite_moldavia_wallachia = {
 			exists = MOL
 			NOT = { exists = ROM }
 		}
-
+		
 		allow = {
 			OR = {
 				nationalism_n_imperialism = 1
@@ -228,7 +230,7 @@ unite_moldavia_wallachia = {
 				war = no
 			}
 		}
-
+		
 		effect = {
 			prestige = 10
 			change_tag = ROM
@@ -248,7 +250,7 @@ unite_moldavia_wallachia = {
 			}
 			capital = 664
 		}
-
+		
 		ai_will_do = {
 			factor = 1
 		}
@@ -260,7 +262,7 @@ unite_moldavia_wallachia = {
 			NOT = { exists = YUG }
 			NOT = { has_global_flag = yugoslavia_formed }
 		}
-
+		
 		allow = {
 			war = no
 			SER = {
@@ -270,7 +272,7 @@ unite_moldavia_wallachia = {
 						OR = {
 							part_of_sphere = no
 							in_sphere = THIS
-							sphere_owner = { is_sphere_leader_of = THIS }
+							sphere_owner = { is_sphere_leader_of= THIS }
 						}
 					}
 					all_core = {
@@ -387,7 +389,7 @@ unite_moldavia_wallachia = {
 			factor = 1
 		}
 	}
-	centralize_the_holy_roman_empire
+	centralize_the_holy_roman_empire = {
 		potential = {
 			tag = AUS
 			NOT = {
