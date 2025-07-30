@@ -14,7 +14,7 @@ USA		= "countries/USA.txt"
 JAP		= "countries/Japan.txt"
 ITA		= "countries/Italy.txt"
 KUK		= "countries/Austria-Hungary.txt"
-
+HRE		= "countries/Holy Roman Empire.txt"
 
 # Scandinavia
 DEN		= "countries/Denmark.txt"
