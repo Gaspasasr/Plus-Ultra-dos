@@ -1,0 +1,122 @@
+political_decisions = {
+	subjugate_scotland = {
+		potential = {
+			tag = ENG
+			NOT = {
+				exists = BRI
+			}
+		}
+		
+		allow = {
+			war = no
+			SCO = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = BRI
+			add_accepted_culture = scottish
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = british
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	end_the_english_monarchy = {
+		potential = {
+			tag = SCO
+			NOT = {
+				exists = BRI
+			}
+		}
+		
+		allow = {
+			war = no
+			ENG = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			change_tag = BRI
+			add_accepted_culture = british
+			any_country = {
+				limit = {
+					NOT = {
+						is_greater_power = yes
+					}
+					is_culture_group = british
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	integrate_ireland = {
+		potential = {
+			OR = {
+				tag = BRI
+			}
+			NOT = {
+				has_country_tag = ireland_integration
+			}
+		}
+		
+		allow = {
+			war = no
+			IRE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			prestige = 20
+			add_accepted_culture = irish
+				any_owned = {
+					is_core = IRE
+					add_core = THIS
+				}
+			set_country_flag = ireland_integration
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

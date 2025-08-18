@@ -3,4 +3,5 @@ controller = RUS
 add_core = RUS
 trade_goods = fish
 life_rating = 15
-1861.1.1 = { railroad = 3 }
+terrain = forest
+1861.1.1 = { railroad = 3 } 

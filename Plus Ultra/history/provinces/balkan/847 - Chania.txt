@@ -1,5 +1,5 @@
-owner = EGY
-controller = EGY
+owner = SPA
+controller = SPA
 add_core = EGY
 add_core = CRE
 add_core = GRE

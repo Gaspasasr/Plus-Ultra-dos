@@ -1,4 +1,4 @@
-capital = 703 #Krakow
+capital = 706
 primary_culture = polish
 culture = lithuanian
 culture = ashkenazi
@@ -7,6 +7,7 @@ government = hms_government
 plurality = 0.5
 nationalvalue = nv_equality
 literacy = 0.5
+prestige = 30
 civilized = yes
 
 

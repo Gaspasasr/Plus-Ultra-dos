@@ -3,4 +3,5 @@ life_rating = 40
 add_core = GNV
 owner = GNV
 controller = GNV
+add_core = GER
 1861.1.1 = { railroad = 3 } 

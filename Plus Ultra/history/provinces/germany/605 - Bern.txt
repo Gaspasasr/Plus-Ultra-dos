@@ -4,4 +4,5 @@ fort = 1
 owner = GNV
 controller = GNV
 add_core = GNV
+add_core = GER
 1861.1.1 = { railroad = 3 } 

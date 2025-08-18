@@ -15,6 +15,7 @@ JAP		= "countries/Japan.txt"
 ITA		= "countries/Italy.txt"
 KUK		= "countries/Austria-Hungary.txt"
 HRE		= "countries/Holy Roman Empire.txt"
+DAN		= "countries/Danubian Monarchy.txt"
 
 # Scandinavia
 DEN		= "countries/Denmark.txt"
@@ -37,7 +38,7 @@ BRG		= "countries/Burgundy.txt"
 ALS		= "countries/Alsace.txt"
 LOR		= "countries/Lorraine.txt"
 SNL		= "countries/Spanish Netherlands.txt"
-ABN		= "countries/Albion.txt"
+BRI		= "countries/Britannia.txt"
 
 # Germany
 ANH		= "countries/Anhalt.txt"

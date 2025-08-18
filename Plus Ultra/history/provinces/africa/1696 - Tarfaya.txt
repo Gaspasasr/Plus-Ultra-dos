@@ -1,6 +1,7 @@
 owner = MOR
 controller = MOR
 add_core = MOR
+terrain = plains
 trade_goods = fish
 life_rating = 30
 1861.1.1 = { railroad = 3 }

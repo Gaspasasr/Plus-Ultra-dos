@@ -3,4 +3,5 @@ life_rating = 35
 add_core = TIR
 owner = TIR
 controller = TIR
-1861.1.1 = { railroad = 3 }
+add_core = GER
+1861.1.1 = { railroad = 3 } 

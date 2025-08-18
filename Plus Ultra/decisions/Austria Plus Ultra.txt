@@ -1,0 +1,41 @@
+politial_decisions = {
+	centralize_the_holy_roman_empire = {
+		potential = {
+			tag = AUS
+			NOT = {
+				exists = GER
+				exists = NGF
+			}
+		}
+		
+		allow = {
+			is_greater_power = yes
+			prestige = 45
+			war = no
+			HRE = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							in_sphere = THIS
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 50
+			change_tag = HRE
+			add_accepted_culture = north_german
+			add_accepted_culture = south_german
+			any_country = {
+				limit = {
+					is_culture_group = germanic
+					in_sphere = THIS
+				}
+				country_event = { id=11101 days=0 }
+			}
+		}
+	}
+}

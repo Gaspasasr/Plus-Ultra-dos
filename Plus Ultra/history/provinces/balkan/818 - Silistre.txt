@@ -1,8 +1,8 @@
-owner = TUR
-controller = TUR
-add_core = TUR
+owner = WAL
+controller = WAL
+add_core = WAL
 add_core = BUL
 add_core = ROM
 trade_goods = grain
 life_rating = 35
-1861.1.1 = { railroad = 3 }
+1861.1.1 = { railroad = 3 } 

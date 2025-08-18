@@ -4,5 +4,6 @@ fort = 1
 add_core = GNV
 owner = GNV
 controller = GNV
+add_core = GER
 state_building = { level = 1 building = steel_factory upgrade = yes } 
 1861.1.1 = { railroad = 3 state_building = { level = 1 building = fabric_factory upgrade = yes } } 

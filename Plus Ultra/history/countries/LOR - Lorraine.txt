@@ -1,5 +1,6 @@
 capital = 413
 primary_culture = french
+culture = north_german
 religion = catholic
 government = hms_government
 plurality = 25
@@ -7,9 +8,6 @@ nationalvalue = nv_equality
 literacy = 0.60
 non_state_culture_literacy = 0.15
 civilized = yes
-
-#GreaterPowers = prestige
-prestige = 90
 
 # Political reforms
 slavery = yes_slavery

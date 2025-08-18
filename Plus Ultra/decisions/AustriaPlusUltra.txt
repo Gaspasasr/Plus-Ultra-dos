@@ -1,0 +1,50 @@
+political_decisions = {
+	abandon_the_hre = {
+		potential = {
+			tag = AUS
+				NOT = { 
+					has_country_flag = hungary_integration
+					exists = HUN
+				}	
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			war = no
+		}
+		effect = {
+			prestige = 20
+			add_accepted_culture = hungarian
+			add_accepted_culture = slovak
+			set_country_flag = hungary_integration
+			change_tag = DAN
+		}
+	}
+	integrate_the_croatian_crown = {
+		potential = {
+			tag = DAN
+				NOT = { 
+					has_country_flag = croatia_integration
+				}	
+		}
+		allow = {
+			war = no
+			revolution_n_counterrevolution = 1
+			owns = 771
+			owns = 774
+			owns = 783
+			NOT = { 
+				exists = CRO
+			}
+		}
+		effect = {
+			prestige = 20
+			add_accepted_culture = croatian
+			any_owned = {
+				is_core = CRO
+				add_core = DAN
+			}
+			set_country_flag = croatia_integration
+		}
+	}
+	
+}
