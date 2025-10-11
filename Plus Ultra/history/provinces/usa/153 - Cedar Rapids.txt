@@ -1,5 +1,8 @@
 trade_goods = cattle
 life_rating = 35
 colony = 2
+owner = LOU
+controller = LOU
+add_core = LOU
 1861.1.1 = { colony = 0 railroad = 3 } 
 1861.1.1 = { railroad = 3 } 

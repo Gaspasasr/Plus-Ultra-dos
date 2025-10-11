@@ -1,0 +1,17 @@
+political_decisions = {
+	offer_concessions_to_the_dutch = {
+		potential = {
+			tag = NET
+			NOT = { has_country_flag = dutch_accepted }
+		}
+		allow = {
+			NOT = { militancy = 4 }
+			nationalism_n_imperialism = 1
+		}
+		effect = { 
+			add_accepted_culture = dutch
+			prestige = -10
+			set_country_flag = dutch_accepted
+		}
+	}
+}
