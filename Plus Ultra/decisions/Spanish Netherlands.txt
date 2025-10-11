@@ -1,7 +1,7 @@
 political_decisions = {
 	offer_concessions_to_the_dutch = {
 		potential = {
-			tag = NET
+			tag = SNL
 			NOT = { has_country_flag = dutch_accepted }
 		}
 		allow = {

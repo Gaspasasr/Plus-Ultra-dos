@@ -1,0 +1,45 @@
+country_event = {
+
+	id = 99002
+
+	trigger = {
+		tag = ITC
+		year = 1836
+		government = presidential_dictatorship
+		NOT = {
+			has_global_flag = bonaparte_returns
+		}
+		
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 1
+
+		modifier = {
+			factor = 0.90 #increase likelihood to happen
+			year = 1837
+		}
+	}
+
+	title = "EVTNAME99002"
+	desc = "EVTDESC99002"
+	picture = "coronation"
+
+	option = {
+		name = "EVTOPTA99002A" 
+		prestige = 20
+		government = absolute_monarchy
+		set_global_flag = bonaparte_returns
+	}
+	option = {
+		name = "EVTOPTA99002B" 
+		government = republic
+		724 = {
+			life_rating = 15
+			trade_goods = precious_metal
+		}
+		set_global_flag = bonaparte_returns
+	}
+}

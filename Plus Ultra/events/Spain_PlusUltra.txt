@@ -1,0 +1,31 @@
+country_event = {
+
+	id = 99003
+
+	trigger = {
+		tag = SPA
+	}
+
+	title = "EVTNAME99003"
+	desc = "EVTDESC99003"
+	picture = "theatre"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA99003A" 
+		prestige = 20
+		
+	}
+	option = {
+		name = "EVTOPTA99003B" 
+		prestige = -30
+		SIT = { 
+			annex_to = SPA
+			all_core = {
+				remove_core = SIT
+			}
+		}
+		SPA = {set_country_flag = italy_annexed}
+	}
+}

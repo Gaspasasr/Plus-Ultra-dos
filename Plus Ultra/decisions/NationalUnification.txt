@@ -198,6 +198,14 @@ political_decisions = {
 				}
 				country_event = { id=11101 days=0 }
 			}
+			SCA = {
+				all_core = {
+					remove_core = NOR
+					remove_core = SWE
+					remove_core = DEN
+					remove_core = ICE
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1

@@ -1,0 +1,43 @@
+political_decisions = {
+	embrace_our_slavic_brothers = {
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = west_slavs_accepted }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			977 = { owned_by = THIS }
+			994 = { owned_by = THIS }
+			1008 = { owned_by = THIS }
+		}
+		effect = { 
+			add_accepted_culture = byelorussian
+			add_accepted_culture = ukranian
+			prestige = 15
+			set_country_flag = west_slavs_accepted
+		}
+	}
+	recover_tomsk = {
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = tomsk_recovered }
+		}
+		allow = {
+			OIR = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		effect = { 
+			prestige = 10
+			OIR = {
+				all_core = {
+					add_core = RUS
+					remove_core = OIR
+				}
+			}
+			set_country_flag = tomsk_recovered
+		}
+	}
+}

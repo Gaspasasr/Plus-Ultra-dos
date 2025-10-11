@@ -1,0 +1,116 @@
+political_decisions = {
+	
+	recover_rome = {
+		potential = {
+			tag = ITC
+			NOT = {has_country_flag = rome_conquest}
+		}
+		
+		allow = {
+			749 = {
+				owned_by = THIS
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			PAP = {
+				all_core = {
+					add_core = THIS
+				}
+		 	}
+			set_country_flag = rome_conquest
+		}
+	}
+	end_the_papal_states = {
+		potential = {
+			tag = SIT
+			NOT = {
+				has_country_flag = pope_annexed
+			}
+		}
+		
+		allow = {
+			749 = {
+				OR = {
+					owned_by = THIS
+					owner = {
+						vassal_of = SIT
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			PAP = {
+				all_core = {
+					secede_province = THIS
+					add_core = THIS
+				}
+		 	}
+			set_country_flag = pope_annexed
+		}
+	}
+	unify_italy = {
+		potential = {
+			tag = ITC
+			has_country_flag = rome_conquest
+		}
+		
+		allow = {
+			754 = {
+				owned_by = THIS
+			}
+			753 = {
+				owned_by = THIS
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			change_tag = ITA
+			add_accepted_culture = south_italian
+			SPA = {
+				country_event = 99003
+			}
+		}
+	}
+	control_north_italy = {
+		potential = {
+			has_country_tag = pope_annexed
+			tag = SIT
+			NOT = {has_country_flag = north_italy_conquest}
+		}
+		
+		allow = {
+			720 = {
+				owned_by = THIS
+			}
+			724 = {
+				owned_by = THIS
+			}
+			729 = {
+				owned_by = THIS
+			}
+			726 = {
+				owned_by = THIS
+			}
+			744 = {
+				owned_by = THIS
+			}
+		}
+		
+		effect = {
+			prestige = 15
+			add_acceped_culture = north_italian
+			ITC = {
+				all_core = {
+					add_core = THIS
+				}
+		 	}
+			set_country_flag = north_italy_conquest
+		}
+	}
+	
+}

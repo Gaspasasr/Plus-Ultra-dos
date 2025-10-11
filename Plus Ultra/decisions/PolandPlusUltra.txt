@@ -1,0 +1,39 @@
+political_decisions = {
+	concessions_to_the_byelorussians = {
+		potential = {
+			tag = PLC
+			NOT = { has_country_flag = byelorussian_accepted }
+		}
+		allow = {
+			nationalism_n_imperialism = 1
+			718 = { owned_by = THIS }
+		}
+		effect = { 
+			add_accepted_culture = byelorussian
+			prestige = 10
+			set_country_flag = byelorussian_accepted
+		}
+	}
+	treaty_of_kiev = {
+		potential = {
+			tag = PLC
+			NOT = { has_country_flag = ukranian_accepted }
+		}
+		allow = {
+			revolution_n_counterrevolution = 1
+			918 = { owned_by = THIS }
+			968 = { owned_by = THIS }
+			977 = { owned_by = THIS }
+		}
+		effect = { 
+			add_accepted_culture = ukranian
+			prestige = 10
+			set_country_flag = byelorussian_accepted
+			UKR = {
+				all_core = {
+					add_core = PLC
+				}
+			}
+		}
+	}
+}
