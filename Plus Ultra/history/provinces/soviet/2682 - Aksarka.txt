@@ -1,3 +1,6 @@
 trade_goods = timber
 life_rating = 15
-1861.1.1 = { railroad = 3 }
+owner = RUS
+controller = RUS
+add_core = RUS
+1861.1.1 = { railroad = 3 } 

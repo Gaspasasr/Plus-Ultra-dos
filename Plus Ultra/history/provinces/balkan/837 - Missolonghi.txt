@@ -1,7 +1,7 @@
-owner = TUR
-controller = TUR
+owner = GRE
+controller = GRE
 add_core = TUR
 trade_goods = grain
 life_rating = 35
 add_core = GRE
-1861.1.1 = { railroad = 3 }
+1861.1.1 = { railroad = 3 } 

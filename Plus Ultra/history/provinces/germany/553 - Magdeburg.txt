@@ -1,9 +1,9 @@
-owner = BRN
-controller = BRN
-add_core = BRN
+owner = PRU
+controller = PRU
 add_core = GER
 trade_goods = cattle
 life_rating = 40
+add_core = PRU
 1861.1.1 = { 
     railroad = 3
     state_building = { level = 1 building = lumber_mill upgrade = yes } 

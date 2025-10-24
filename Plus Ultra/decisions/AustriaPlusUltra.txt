@@ -12,7 +12,7 @@ political_decisions = {
 			war = no
 		}
 		effect = {
-			prestige = 20
+			prestige = -15
 			add_accepted_culture = hungarian
 			add_accepted_culture = slovak
 			set_country_flag = hungary_integration
@@ -34,15 +34,17 @@ political_decisions = {
 		allow = {
 			war = no
 			revolution_n_counterrevolution = 1
-			owns = 771
-			owns = 774
-			owns = 783
+			CRO = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
 			NOT = { 
 				exists = CRO
 			}
 		}
 		effect = {
-			prestige = 20
+			prestige = 10
 			add_accepted_culture = croatian
 			CRO = {
 				all_core = {

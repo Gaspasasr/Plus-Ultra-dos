@@ -1,8 +1,8 @@
 trade_goods = grain
 life_rating = 35
-owner = KHI
-controller = KHI
-add_core = KHI
+owner = KAZ
+controller = KAZ
+add_core = KAZ
 1861.1.1 = { 
     owner = RUS
     controller = RUS

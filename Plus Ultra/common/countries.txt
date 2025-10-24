@@ -184,7 +184,8 @@ NEJ		="countries/Nejd.txt"
 OMA		="countries/Oman.txt"
 PER		="countries/Persia.txt"
 YEM		="countries/Yemen.txt"
-OIR		="countries/Oirat.txt"
+KAZ		="countries/Kazakh Khanate.txt"
+TOM		="countries/Great Tomsk.txt"
 
 # India
 HND 	="countries/India.txt"

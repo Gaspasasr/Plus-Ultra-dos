@@ -1,6 +1,6 @@
 trade_goods = sulphur
 life_rating = 40
-owner = OIR
-controller = OIR
-add_core = OIR
+owner = TOM
+controller = TOM
+add_core = TOM
 1861.1.1 = { railroad = 3 } 

@@ -4,7 +4,6 @@ add_core = ENG
 trade_goods = grain
 life_rating = 40
 fort = 1 # party_loyalty = {
-add_core = ABN
 ################################################################################
 # ideology = liberal
 # loyalty_value = 10.5 # loyalty test

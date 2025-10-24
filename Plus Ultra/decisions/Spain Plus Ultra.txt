@@ -14,18 +14,18 @@ political_decisions = {
 			prestige = 70
 		}
 		effect = {
-			prestige = 100
+			prestige = 30
 			add_accepted_culture = mexican
 			add_accepted_culture = central_american
 			add_accepted_culture = north_andean
 			add_accepted_culture = south_andean
-			set_country_flag = integrated_viceroyalties
 			any_country = {
 				limit = {
 					substate_of = THIS
 				}
 				annex_to = THIS
 			}
+			set_country_flag = integrated_viceroyalties
 		}
 	}
 	promote_inmigration_in_the_viceroyalties = {

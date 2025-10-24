@@ -515,12 +515,6 @@ ruhr_boom = {
 	factory_throughput = 0.05
 	icon = 11
 }
-spanish_industrial_boom = {
-	factory_owner_cost = -0.25
-	global_population_growth = 0.001
-	factory_throughput = 0.1
-	icon = 11
-}
 
 prussian_general_staff = {
 	org_regain = 0.1
@@ -652,10 +646,24 @@ the_yard = {
 
 #### SPA - Spain ####
 la_guardia_civil = {
-	tax_efficiency = 0.01
+	tax_efficiency = 0.05
 	icon = 1
 }
-
+spanish_industrial_boom = {
+	factory_owner_cost = -0.25
+	global_population_growth = 0.001
+	factory_throughput = 0.1
+	icon = 11
+}
+peninsular_bias = {
+	mobilisation_economy_impact = -0.25
+	mobilisation_size = 0.02
+	global_pop_militancy_modifier = -0.03
+	icon = 17
+}
+mestizo_dilemma = {
+	icon = 1
+}
 #### FRA - France ####
 the_french_foreign_legion = {
 	prestige = 0.01

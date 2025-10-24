@@ -8,7 +8,6 @@ country_event = {
 
 	title = "EVTNAME99003"
 	desc = "EVTDESC99003"
-	picture = "theatre"
 
 	is_triggered_only = yes
 
@@ -27,5 +26,382 @@ country_event = {
 			}
 		}
 		SPA = {set_country_flag = italy_annexed}
+	}
+}
+#####Mestizo_Dilemma
+##Path Choice
+country_event = { 
+	id = 99100
+	title = "SPA00.T"
+	desc = "SPA00.D"
+
+	trigger = {
+		tag = SPA
+		NOT = {
+			has_global_flag = path_chosen
+		}
+	}
+
+	mean_time_to_happen = { days = 1 }
+
+	option = {
+		name = "SPA00.A"
+		set_global_flag = path_chosen
+		SPA = {
+				country_event = 99101
+			}
+	}
+	option = {
+		name = "SPA00.B"
+		set_global_flag = path_chosen
+		add_country_modifier = {
+			name = peninsular_bias
+			duration = 15000
+		}
+	}	
+}
+##Mestizo Path
+country_event = { 
+	id = 99101
+	title = "SPA01.T"
+	desc = "SPA01.D"
+	
+	is_triggered_only = yes 
+	
+	option = {
+		name = "SPA01.A"
+		add_country_modifier = { 
+			name = mestizo_dilemma
+			duration = 15000
+		}
+		SPA = {	
+			set_variable = {
+				which = MEX_revolt
+				value = 1
+			}
+			set_variable = {
+				which = CLM_revolt
+				value = 1
+			}
+			set_variable = {
+				which = PEU_revolt
+				value = 1
+			}
+			set_variable = {
+				which = Mestizo_ACC
+				value = 0
+			}
+		}
+	}	
+}
+##cortes imperiales
+country_event = {
+	id = 99102
+	title = "SPA02.T"
+	desc = "SPA02.D"
+	
+	trigger = {
+		tag = SPA
+		year = 1840
+		NOT = { 
+			has_global_flag = cortes_imperiales
+		} 
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "SPA02.A"
+		SPA = {	
+			change_variable = {
+				which = Mestizo_ACC
+				value = 1
+			}
+		}
+		set_global_flag = cortes_imperiales
+	}	
+}
+##separatist_revolts
+country_event = {
+	id = 99103
+	title = "SPA03.T"
+	desc = "SPA03.D"
+	
+	trigger = {
+		tag = SPA
+		year = 1848
+		exists = MEX
+		exists = PEU
+		exists = CLM
+		NOT = { 
+			has_global_flag = separatist_movements
+		} 
+	}
+	
+	mean_time_to_happen = { months = 2 }
+	
+	option = {
+		name = "SPA03.A"
+		SPA = {	
+			change_variable = {
+				which = CLM_revolt
+				value = 1
+			}
+			change_variable = {
+				which = PEU_revolt
+				value = 1
+			}
+			change_variable = {
+				which = MEX_revolt
+				value = 1
+			}
+			change_variable = {
+				which = Mestizo_ACC
+				value = 1
+			}
+		}
+		set_global_flag = cortes_imperiales
+	}
+	option = {
+		name = "SPA03.B"
+		SPA = {	
+			change_variable = {
+				which = CLM_revolt
+				value = 2
+			}
+			change_variable = {
+				which = PEU_revolt
+				value = 2
+			}
+			change_variable = {
+				which = MEX_revolt
+				value = 2
+			}
+			change_variable = {
+				which = Mestizo_ACC
+				value = 2
+			}
+		}
+		set_global_flag = separatist_movements
+	}	
+}
+##La Plata Unites
+country_event = {
+	id = 99104
+	title = "SPA04.T"
+	desc = "SPA04.D"
+	
+	trigger = {
+		tag = SPA
+		exists = LAP
+		NOT = { 
+			has_global_flag = la_plata_unites
+		} 
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	option = {
+		name = "SPA04.A"
+		SPA = {	
+			change_variable = {
+				which = CLM_revolt
+				value = 1
+			}
+			change_variable = {
+				which = PEU_revolt
+				value = 1
+			}
+			change_variable = {
+				which = MEX_revolt
+				value = 1
+			}
+		}
+		set_global_flag = la_plata_unites
+	}	
+}
+##Libertadores
+country_event = {
+	id = 99105
+	title = "SPA05.T"
+	desc = "SPA05.D"
+	
+	trigger = {
+		year = 1850
+		nationalism_n_imperialism = 0
+		NOT = { 
+			has_global_flag = libertadores
+		} 
+	}
+	
+	mean_time_to_happen = { months = 60 }
+	
+	option = {
+		name = "SPA05.A"
+		SPA = {	
+			change_variable = {
+				which = CLM_revolt
+				value = 1
+			}
+			change_variable = {
+				which = PEU_revolt
+				value = 1
+			}
+			change_variable = {
+				which = MEX_revolt
+				value = 1
+			}
+		}
+		set_global_flag = libertadores
+	}
+	option = {
+		name = "SPA05.B"
+		SPA = {	
+			change_variable = {
+				which = CLM_revolt
+				value = 2
+			}
+			change_variable = {
+				which = MEX_revolt
+				value = 2
+			}
+		}
+		set_global_flag = libertadores
+	}
+	option = {
+		name = "SPA05.C"
+		SPA = {	
+			change_variable = {
+				which = PEU_revolt
+				value = 2
+			}
+			change_variable = {
+				which = MEX_revolt
+				value = 2
+			}
+		}
+		set_global_flag = libertadores
+	}
+	option = {
+		name = "SPA05.D"
+		SPA = {	
+			change_variable = {
+				which = CLM_revolt
+				value = 2
+			}
+			change_variable = {
+				which = PEU_revolt
+				value = 2
+			}
+		}
+		set_global_flag = libertadores
+	}
+}
+##Accepting Mestizos
+country_event = {
+	id = 99106
+	title = "SPA06.T"
+	desc = "SPA06.D"
+	
+	trigger = {
+		SPA = {	
+			check_variable = {
+			which = Mestizo_ACC
+			value = 8
+			}
+		}
+		has_country_effect = mestizo_dilemma
+		NOT = { 
+			has_global_flag = mestizos_accepted
+		}
+	}
+	
+	mean_time_to_happen = { months = 12 }
+	
+	option = {
+		name = "SPA06.A"
+		prestige = 30
+			add_accepted_culture = mexican
+			add_accepted_culture = central_american
+			add_accepted_culture = north_andean
+			add_accepted_culture = south_andean
+			add_accepted_culture = caribeño
+			any_country = {
+				limit = {
+					substate_of = THIS
+				}
+				all_core = {
+					add_core = THIS
+					remove_core = MEX
+					remove_core = PEU
+					remove_core = CLM
+					remove_core = GCO
+				}
+				annex_to = THIS
+			}
+		remove_country_modifier = mestizo_dilemma
+		set_global_flag = mestizos_accepted
+	}
+}
+##Viceroyalties Independence
+country_event = {
+	id = 99107
+	title = "SPA07.T"
+	desc = "SPA07.D"
+	
+	trigger = {
+		exists = MEX
+		exists = CLM
+		exists = PEU 
+		NOT = { has_global_flag = american_rebellion }
+		OR = {
+			SPA = {	
+				check_variable = {
+					which = MEX_revolt
+					value = 5
+				}
+			}
+			SPA = {	
+				check_variable = {
+					which = CLM_revolt
+					value = 5
+				}
+			}
+			SPA = {	
+				check_variable = {
+					which = PEU_revolt
+					value = 5
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { months = 48 }
+	
+	option = {
+		name = "SPA07.A"
+		prestige = -30
+		release_vassal = MEX
+		release_vassal = CLM
+		release_vassal = PEU
+		set_global_flag = american_rebellion
+		war = {
+			target = MEX
+			attacker_goal = { annex }
+			defender_goal = { become_independent }
+			call_ally = no
+		}
+		war = {
+			target = CLM
+			attacker_goal = { annex }
+			defender_goal = { become_independent }
+			call_ally = no
+		}
+		war = {
+			target = PEU
+			attacker_goal = { annex }
+			defender_goal = { become_independent }
+			call_ally = no
+		}
 	}
 }

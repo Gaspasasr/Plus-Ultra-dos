@@ -1,5 +1,5 @@
-owner = UKR
-controller = UKR
+owner = ITC
+controller = ITC
 add_core = UKR
 add_core = CRI
 trade_goods = fish

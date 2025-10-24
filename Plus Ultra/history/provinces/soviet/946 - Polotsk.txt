@@ -4,4 +4,4 @@ add_core = BYE
 add_core = PLC
 trade_goods = wool
 life_rating = 35
-1861.1.1 = { railroad = 3 }
+1861.1.1 = { railroad = 3 } 
